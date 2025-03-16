@@ -74,7 +74,7 @@ public class StandTest {
 
 		String confirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-		//System.out.println("I reached to end");
+		System.out.println("I reached to end");
 		 driver.close();
 	}
 }
